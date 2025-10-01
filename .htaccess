@@ -1,0 +1,3 @@
+Options -Indexes
+ErrorDocument 403 /libs/restricted.php
+# ErrorDocument 404 /custom-404.php

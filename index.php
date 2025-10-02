@@ -93,7 +93,7 @@ if (isset($_GET['k'])) {
 	$check = $mysqli->query("SELECT * FROM verify_link WHERE sec_key = '$key' and ip = '$ip' LIMIT 1");
 	if ($check->num_rows == 1) { 
 		$check = $check->fetch_assoc();
-		$address = $check['address'];
+		$address = $check['wallet_address'];
 		$mysqli->query("DELETE FROM verify_link WHERE sec_key = '$key'");
 		$faucetpay_api = get_data('faucetpay_api');
 		$faucetpay = new FaucetPay($faucetpay_api, $faucet['currency']);

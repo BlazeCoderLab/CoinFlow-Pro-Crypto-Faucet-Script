@@ -64,7 +64,7 @@ If you find CoinFlow Pro valuable and want to support ongoing improvements, plea
 ## 🛠 Changelog
 
 ```
-Version 2.0.2 - (1 October 2025)
+Version 2.0.2 - (02 October 2025)
 - Fixed: Backend user logging issue for ip check
 - Enhanced: Admin data handling
 - Updated: New theme for admin login

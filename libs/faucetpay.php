@@ -153,7 +153,7 @@ class FaucetPay
             return array(
                 'success' => false,
                 'message' => $r['message'],
-                'html' => '<div class="alert alert-danger">Before you can receive payments at FaucetPay.io with this address you must link it to an account. <a href="http://faucetpay.io/signup" target="_blank">Create an account at FaucetPay.io</a> and link your address, then come back and claim again.</div>',
+                'html' => '<div class="alert alert-danger">Wallet Address is not linked to FaucetPay.io. <a href="https://faucetpay.io/?r=4529849" target="_blank">Create an account at FaucetPay.io</a> and link your address, then come back and claim again.</div>',
                 'response' => json_encode($r)
             );
         }
